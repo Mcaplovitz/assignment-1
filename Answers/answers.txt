@@ -1,0 +1,18 @@
+3. mkdir answers
+touch answers.txt
+4. /home/matthew/GitHub/assignment-1
+5. ls -a
+6. ls [folder]
+7. you can delete a file with rm and never get it back, or if you do rm * it will remove everything in the directory other than folders
+8. mkdir results
+9. nano my_script.sh
+10. chmod 777 my_script.sh
+11. cd ../data
+12. cat $(ls -S | sed -n '2p') | wc -w
+13. for csv in /data/*.csv
+do
+  ../my_script.sh $csv
+done
+14.  unzip \*.zip > unzipped-files 
+15. rm *.zip
+16. cp *20*.csv ../Answers/results
